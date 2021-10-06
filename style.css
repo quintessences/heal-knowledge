@@ -35,10 +35,23 @@ header{
 }
 
 #menu li a{
-    color: rgb(112, 36, 36);
+    color: rgb(12, 11, 11);
     text-decoration: none;
     font-size: 20px;
 }
+
+#aboutus li{
+    list-style: none;
+    display: inline-block;
+    margin: 80px;
+}
+
+#aboutus li a{
+    color: rgb(235, 227, 227);
+    text-decoration: none;
+    font-size: 20px;
+}
+
 
 section{
     width: 100%;
@@ -48,23 +61,22 @@ section{
 }
 
 #home{
-   background-color: #8761dd;
+   background-color: #0a79f8;
 }
 
 #about{
-     background-color: #a6e6be;
+     background-color: #0d8cd6;
 }
 
 #resources{
-     background-color: #eb7dab;
+     background-color: #0a8aaa;
 }
-
 #coaches{
-     background-color: #ba80c2;
+     background-color: #034558;
 }
 
 #contact{
-     background-color: #B52B65;
+     background-color: #106074;
 }
 
 h1{
