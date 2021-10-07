@@ -109,4 +109,26 @@ h4{
     color: rgb(206, 226, 26);
 }
 
+#about h5{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(238, 241, 11);
+}
+#resources h5{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(227, 233, 227);
+}
+#contact h5{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(227, 233, 227);
+}
+
 
