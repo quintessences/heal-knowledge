@@ -30,7 +30,7 @@ header{
 
 #menu li{
     list-style: none;
-    display: inline-block;
+    display:inline-block;
     margin: 20px;
 }
 
@@ -129,6 +129,11 @@ h4{
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(227, 233, 227);
+}
+.home_icon{
+    height:6%;
+    width:4%;
+
 }
 
 
