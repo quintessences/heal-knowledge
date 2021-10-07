@@ -61,22 +61,22 @@ section{
 }
 
 #home{
-   background-color: #99b898;
+   background-color: #E3D9CA;
 }
 
 #about{
-     background-color: #fecea8;
+     background-color: #95A792;
 }
 
 #resources{
-     background-color: #ff847c;
+     background-color: #596C68;
 }
 #coaches{
-     background-color: #e84a5f;
+     background-color: #403F48;
 }
 
 #contact{
-     background-color: #2a363b;
+     background-color: #442727;
 }
 
 h1{
@@ -84,7 +84,8 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #403F48;
 }
+
 
 
