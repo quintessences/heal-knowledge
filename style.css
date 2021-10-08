@@ -28,16 +28,29 @@ header{
     z-index: 999;
 }
 
+header img{
+    width: 20%;
+}
+
+#menu{
+    display: flex;
+}
+
 #menu li{
     list-style: none;
     display: inline-block;
     margin: 20px;
+    width: 6rem;
 }
 
 #menu li a{
     color: rgb(12, 11, 11);
     text-decoration: none;
     font-size: 20px;
+}
+
+#aboutus{
+    margin-top: 4rem;
 }
 
 #aboutus li{
