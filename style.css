@@ -44,12 +44,15 @@ header{
     list-style: none;
     display: inline-block;
     margin: 80px;
+    margin:130px;
 }
 
 #aboutus li a{
     color: rgb(230, 240, 240);
     text-decoration: none;
     font-size: 20px;
+    
+    
 }
 
 
@@ -61,7 +64,7 @@ section{
 }
 
 #home{
-   background-color: #99b898;
+   background-color: #91568f;
 }
 
 #about{
@@ -72,11 +75,11 @@ section{
      background-color: #ff847c;
 }
 #coaches{
-     background-color: #e84a5f;
+     background-color: #f0a161;
 }
 
 #contact{
-     background-color: #2a363b;
+     background-color: #25373f;
 }
 
 h1{
@@ -224,5 +227,8 @@ h4{
 #contact .container .connect-media .box .logo{
     margin: 10px;
     text-align: center;
+}
+.navbar{
+    background-color:lightseagreen;
 }
  
