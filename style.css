@@ -130,6 +130,7 @@ h4{
     transform: translate(-50%, -50%);
     color: rgb(227, 233, 227);
 }
+ /*contact form css*/
 .home_icon{
     height:6%;
     width:4%;
@@ -224,3 +225,4 @@ h4{
     margin: 10px;
     text-align: center;
 }
+ 
