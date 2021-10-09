@@ -40,6 +40,27 @@ header{
     font-size: 20px;
 }
 
+#menu li:hover {
+  transform: translateY(-15%);
+  /* text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.4), 0 0 18px rgba(0, 0, 0, 0.29);
+}
+
+#menu li:active {
+  transform: translateY(-8%);
+  /* text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 0 13px rgba(0, 0, 0, 0.29);
+  color: red;
+}
+
+#menu li a:hover {
+  color: rgb(102, 102, 201);
+}
+
+#menu li a:active {
+  color: rgb(238, 113, 113);
+}
+
 #aboutus li{
     list-style: none;
     display: inline-block;
