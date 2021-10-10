@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+/*contact form css*/
+
+>>>>>>> cd4868030d6d1edbe80c1a931afd46bbbb317f84
 body {
     background-color: #d1f3e7;
   }
@@ -125,6 +130,10 @@ body {
     50% {
       transform: translate(0, 8px);
     }
+<<<<<<< HEAD
   } 
   
   
+=======
+  } 
+>>>>>>> cd4868030d6d1edbe80c1a931afd46bbbb317f84
