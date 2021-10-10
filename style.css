@@ -38,6 +38,7 @@ header{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
+
     /* border-radius: 15px 50px 30px 5px */
     transition: color 0.1s ease-in-out;
 }
@@ -49,6 +50,7 @@ header{
     border-width: 5px 5px;
     border-radius: 50px 50px 50px 50px
     transition: color 0.1s ease-in-out;
+ 
 }
 
 #aboutus li{
@@ -242,11 +244,3 @@ h4{
 .navbar{
     background-color:lightseagreen;
 }
-/*  
-#menu li a{
-    background-color: lightseagreen;
-    border-style: solid;
-    border-radius: 15px 50px 30px 5px;
-    border-color: lightseagreen;
-
-    } */
