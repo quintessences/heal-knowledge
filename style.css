@@ -43,7 +43,7 @@ header{
     transition: color 0.1s ease-in-out;
 }
 
-#menu li a:hover{
+/* #menu li a:hover{
     color: rgb(10, 141, 141);
     text-decoration: none;
     border-style: solid;
@@ -51,7 +51,7 @@ header{
     border-radius: 50px 50px 50px 50px
     transition: color 0.1s ease-in-out;
  
-}
+} */
 
 #aboutus li{
     list-style: none;
@@ -148,8 +148,9 @@ h4{
 }
  /*contact form css*/
 .home_icon{
-    height:6%;
-    width:4%;
+    height:8%;
+    width:6%;
+    padding-left: 40px;
 
 }
 
@@ -172,7 +173,7 @@ h4{
     box-shadow: whitesmoke 10px 10px 50px;
     transform: scale(1.01);
     border: none;
-}
+} 
 
 #contact .container .connect-form form{
     /* background-color: #fecea8; */
@@ -211,11 +212,11 @@ h4{
     transition: all 0.5s ease-out;
 }
 
-#contact .container .connect-form form #btn:hover{
+ #contact .container .connect-form form #btn:hover{
     background-color: aliceblue;
     color: black;
     cursor: pointer;
-}
+} 
 
 #contact .container .connect-media .box{
     background-color:rgba(245, 242, 242, 0.6);
@@ -231,11 +232,11 @@ h4{
     transition: all 0.7s ease-in-out;
 }
 
-#contact .container .connect-media .box:hover{
+ #contact .container .connect-media .box:hover{
     box-shadow: whitesmoke 10px 10px 50px;
     transform: scale(1.01);
     border: none;
-}
+} 
 
 #contact .container .connect-media .box .logo{
     margin: 10px;
@@ -243,4 +244,31 @@ h4{
 }
 .navbar{
     background-color:lightseagreen;
+    height: 100px;
+    padding-top: 80px;
 }
+.contact{
+    height: 8%;
+    width: 6%;
+  position: relative;
+  bottom: 72px;
+  left: 40px;
+  padding-left: 60px;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #fcfcfc;
+    font-size: 20px;
+    background: #3ed699;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #1b8f68;
+    text-decoration: none;
+  }
+  
