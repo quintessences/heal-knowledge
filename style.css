@@ -57,7 +57,7 @@ header{
     transform: translateY(0.25em);
     cursor: pointer;
  
-}
+} 
 
 #aboutus li{
     list-style: none;
@@ -87,14 +87,14 @@ section{
 }
 
 #about{
-     background-color: #fecea8;
+     background-color: #ffb071;
 }
 
 #resources{
      background-color: #ff847c;
 }
 #coaches{
-     background-color: #f0a161;
+     background-color: #5885bc;
 }
 
 #contact{
@@ -121,7 +121,7 @@ h3{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(238, 17, 28);
+    color: wheat;
 }
 h4{
     position: absolute;
@@ -154,8 +154,9 @@ h4{
 }
  /*contact form css*/
 .home_icon{
-    height:6%;
-    width:4%;
+    height:8%;
+    width:6%;
+    padding-left: 40px;
 
 }
 
@@ -171,19 +172,18 @@ h4{
     color: white;
     transition: all 0.7s ease-in-out;
     border: 1px solid white;
+    transition: all 0.3s ease-in-out;
 }
 
 
 #contact .container .connect-form:hover{
-    box-shadow: whitesmoke 10px 10px 50px;
+    box-shadow: whitesmoke 0px 0px 5px;
     transform: scale(1.01);
-    border: none;
-}
+    border: 1px solid white;
+} 
 
 #contact .container .connect-form form{
-    /* background-color: #fecea8; */
     display: flex;
-    /* padding: 20px; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -217,11 +217,11 @@ h4{
     transition: all 0.5s ease-out;
 }
 
-#contact .container .connect-form form #btn:hover{
+ #contact .container .connect-form form #btn:hover{
     background-color: aliceblue;
     color: black;
     cursor: pointer;
-}
+} 
 
 #contact .container .connect-media .box{
     background-color:rgba(245, 242, 242, 0.6);
@@ -234,14 +234,14 @@ h4{
     height: 450px;
     width: 500px;
     border-radius: 10%;
-    transition: all 0.7s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-#contact .container .connect-media .box:hover{
-    box-shadow: whitesmoke 10px 10px 50px;
+ #contact .container .connect-media .box:hover{
+    box-shadow: whitesmoke 0px 0px 5px;
     transform: scale(1.01);
     border: none;
-}
+} 
 
 #contact .container .connect-media .box .logo{
     margin: 10px;
@@ -249,4 +249,33 @@ h4{
 }
 .navbar{
     background-color:lightseagreen;
+    height: 100px;
+    padding-top: 80px;
 }
+.contact{
+    height: 8%;
+    width: 6%;
+  position: relative;
+  bottom: 72px;
+  left: 40px;
+  padding-left: 60px;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #fcfcfc;
+    font-size: 20px;
+    background: #3ed699;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background: #1b8f68;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
