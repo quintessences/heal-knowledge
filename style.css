@@ -38,20 +38,26 @@ header{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
-
-    /* border-radius: 15px 50px 30px 5px */
-    /* transition: color 0.1s ease-in-out; */
+    border:2px solid;
+    border-radius: 50px 50px 50px 50px;
+    transition: color 0.1ms;
+    padding: 0.5em 1em;
+    font-size: 1em;
 }
 
-/* #menu li a:hover{
-    color: rgb(10, 141, 141);
+#menu li a:hover{
+    color: red;
+    background-color: yellow;
     text-decoration: none;
     border-style: solid;
     border-width: 5px 5px;
-    border-radius: 50px 50px 50px 50px
-    transition: color 0.1s ease-in-out;
+    border-radius: 50px 50px 50px 50px;
+    border-color: #f1ff5c;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(0.25em);
+    cursor: pointer;
  
-} */
+} 
 
 #aboutus li{
     list-style: none;
