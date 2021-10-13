@@ -40,7 +40,7 @@ header{
     font-size: 20px;
 
     /* border-radius: 15px 50px 30px 5px */
-    transition: color 0.1s ease-in-out;
+    /* transition: color 0.1s ease-in-out; */
 }
 
 /* #menu li a:hover{
@@ -81,14 +81,14 @@ section{
 }
 
 #about{
-     background-color: #fecea8;
+     background-color: #ffb071;
 }
 
 #resources{
      background-color: #ff847c;
 }
 #coaches{
-     background-color: #f0a161;
+     background-color: #5885bc;
 }
 
 #contact{
@@ -115,7 +115,7 @@ h3{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(238, 17, 28);
+    color: wheat;
 }
 h4{
     position: absolute;
@@ -166,19 +166,18 @@ h4{
     color: white;
     transition: all 0.7s ease-in-out;
     border: 1px solid white;
+    transition: all 0.3s ease-in-out;
 }
 
 
 #contact .container .connect-form:hover{
-    box-shadow: whitesmoke 10px 10px 50px;
+    box-shadow: whitesmoke 0px 0px 5px;
     transform: scale(1.01);
-    border: none;
+    border: 1px solid white;
 } 
 
 #contact .container .connect-form form{
-    /* background-color: #fecea8; */
     display: flex;
-    /* padding: 20px; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -229,11 +228,11 @@ h4{
     height: 450px;
     width: 500px;
     border-radius: 10%;
-    transition: all 0.7s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
  #contact .container .connect-media .box:hover{
-    box-shadow: whitesmoke 10px 10px 50px;
+    box-shadow: whitesmoke 0px 0px 5px;
     transform: scale(1.01);
     border: none;
 } 
@@ -265,10 +264,12 @@ h4{
     background: #3ed699;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
   }
   
   .btn:hover {
     background: #1b8f68;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
   }
   
