@@ -32,6 +32,7 @@ header{
     list-style: none;
     display:inline-block;
     margin: 20px;
+    
 }
 
 #menu li a{
@@ -227,7 +228,9 @@ h4{
     align-items: flex-start;
     height: 450px;
     width: 500px;
-    border-radius: 10%;
+    border-radius: 20%;
+    border-style: solid;
+    border-color: black;
     transition: all 0.3s ease-in-out;
 }
 
@@ -242,7 +245,10 @@ h4{
     text-align: center;
 }
 .navbar{
-    background-color:lightseagreen;
+   /* background-color:lightseagreen;*/
+   background-image: url(images/heal.jpg);
+   background-repeat: no-repeat;
+   background-size: 1500px 200px;
     height: 100px;
     padding-top: 80px;
 }
