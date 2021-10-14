@@ -42,6 +42,7 @@ header{
     transition: all 0.5s ease;
     border:2px solid;
     border-radius: 50px 50px 50px 50px;
+    background: #3ed699;
     transition: color 0.1ms;
     padding: 0.5em 1em;
     font-size: 1em;
@@ -158,8 +159,9 @@ h4{
 .home_icon{
     height:8%;
     width:6%;
-    padding-left: 40px;
-
+    padding-left: 20px;
+    vertical-align: middle;
+    padding-right: 20px;
 }
 
 #contact .container{
@@ -256,11 +258,8 @@ h4{
 }
 .contact{
     height: 32px;
-    width: 32px;
-  position: relative;
-  
-  left: 40px;
-  padding-left: 60px;
+    width: 40px;
+    vertical-align: middle;
 }
 .btn {
     -webkit-border-radius: 28;
@@ -269,7 +268,6 @@ h4{
     font-family: Georgia;
     color: #fcfcfc;
     font-size: 20px;
-    background: #3ed699;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
