@@ -173,12 +173,14 @@ h4{
 #contact .container .connect-form:hover{
     box-shadow: whitesmoke 0px 0px 5px;
     transform: scale(1.01);
+    background-color: black;
     border: 1px solid white;
 } 
 
 #contact .container .connect-form form{
     display: flex;
     justify-content: center;
+    padding: 20px;
     align-items: center;
     flex-direction: column;
     height: 450px;
@@ -203,9 +205,11 @@ h4{
 
 #contact .container .connect-form form #btn{
     margin: 10px;
-    padding: 5px;
     border-radius: 20px;
-    width: 85%;
+    height: 50px;
+    width: 430px;
+    font-size: 30px;
+    text-align: center;
     font-weight: bold;
     background-color: #fd6a7d;
     transition: all 0.5s ease-out;
