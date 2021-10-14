@@ -38,6 +38,8 @@ header{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
+    /* border-radius: 15px 50px 30px 5px */
+    transition: all 0.5s ease;
     border:2px solid;
     border-radius: 50px 50px 50px 50px;
     transition: color 0.1ms;
@@ -253,10 +255,10 @@ h4{
     padding-top: 80px;
 }
 .contact{
-    height: 8%;
-    width: 6%;
+    height: 32px;
+    width: 32px;
   position: relative;
-  bottom: 72px;
+  
   left: 40px;
   padding-left: 60px;
 }
