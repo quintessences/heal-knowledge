@@ -1,283 +1,304 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-size: 100%;
-    font-family: sans-serif;
+body {
+  font-size: 100%;
+  font-family: sans-serif;
 }
 
-div, section, span, ul, li, a, header{
-    box-sizing: border-box;
+div,
+section,
+span,
+ul,
+li,
+a,
+header {
+  box-sizing: border-box;
 }
 
 /*css reset*/
 
-header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
-    align-items: center;
-    position: fixed;
-    z-index: 999;
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
 }
 
-#menu li{
-    list-style: none;
-    display:inline-block;
-    margin: 20px;
+#menu li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
 }
 
-#menu li a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 20px;
-    /* border-radius: 15px 50px 30px 5px */
-    transition: all 0.5s ease;
-    border:2px solid;
-    border-radius: 50px 50px 50px 50px;
-    transition: color 0.1ms;
-    padding: 0.5em 1em;
-    font-size: 1em;
+#menu li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  /* border-radius: 15px 50px 30px 5px */
+  transition: all 0.5s ease;
+  border: 2px solid;
+  border-radius: 50px 50px 50px 50px;
+  transition: color 0.1ms;
+  padding: 0.5em 1em;
+  font-size: 1em;
 }
 
-#menu li a:hover{
-    color: red;
-    background-color: yellow;
-    text-decoration: none;
-    border-style: solid;
-    border-width: 5px 5px;
-    border-radius: 50px 50px 50px 50px;
-    border-color: #f1ff5c;
-    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
-    transform: translateY(0.25em);
-    cursor: pointer;
- 
-} 
-
-#aboutus li{
-    list-style: none;
-    display: inline-block;
-    margin: 80px;
-    margin:130px;
+#menu li a:hover {
+  color: red;
+  background-color: yellow;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 5px 5px;
+  border-radius: 50px 50px 50px 50px;
+  border-color: #f1ff5c;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(0.25em);
+  cursor: pointer;
 }
 
-#aboutus li a{
-    color: rgb(230, 240, 240);
-    text-decoration: none;
-    font-size: 20px;
-    
-    
+#aboutus li {
+  list-style: none;
+  display: inline-block;
+  margin: 80px;
+  margin: 130px;
 }
 
-
-section{
-    width: 100%;
-    float: left;
-    height: 100vh;
-    position: relative;
+#aboutus li a {
+  color: rgb(230, 240, 240);
+  text-decoration: none;
+  font-size: 20px;
 }
 
-#home{
-   background-color: #91568f;
-}
-
-#about{
-     background-color: #ffb071;
-}
-
-#resources{
-     background-color: #ff847c;
-}
-#coaches{
-     background-color: #5885bc;
-}
-
-#contact{
-     background-color: #25373f;
-}
-
-h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(241, 239, 239);
-}
-
-h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(27, 26, 29);
-}
-h3{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: wheat;
-}
-h4{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(238, 66, 14);
-}
-
-#about h5{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(213, 12, 240);
-}
-#resources h5{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(227, 233, 227);
-}
-#contact h5{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(227, 233, 227);
-}
- /*contact form css*/
-.home_icon{
-    height:8%;
-    width:6%;
-    padding-left: 40px;
-
-}
-
-#contact .container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-}
-
-#contact .container .connect-form{
-    border-radius: 10%;
-    color: white;
-    transition: all 0.7s ease-in-out;
-    border: 1px solid white;
-    transition: all 0.3s ease-in-out;
-}
-
-
-#contact .container .connect-form:hover{
-    box-shadow: whitesmoke 0px 0px 5px;
-    transform: scale(1.01);
-    border: 1px solid white;
-} 
-
-#contact .container .connect-form form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 450px;
-    width: 500px;
-}
-
-#contact .container .connect-form form #email{
-    margin: 10px;
-    padding: 5px;
-    width: 80%;
-    height: 35px;
-    border-radius: 20px;
-}
-
-#contact .container .connect-form form #message{
-    margin: 10px;
-    padding: 10px;
-    width: 80%;
-    height: 200px;
-    border-radius: 20px;
-}
-
-#contact .container .connect-form form #btn{
-    margin: 10px;
-    padding: 5px;
-    border-radius: 20px;
-    width: 85%;
-    font-weight: bold;
-    background-color: #fd6a7d;
-    transition: all 0.5s ease-out;
-}
-
- #contact .container .connect-form form #btn:hover{
-    background-color: aliceblue;
-    color: black;
-    cursor: pointer;
-} 
-
-#contact .container .connect-media .box{
-    background-color:rgba(245, 242, 242, 0.6);
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    align-items: flex-start;
-    height: 450px;
-    width: 500px;
-    border-radius: 10%;
-    transition: all 0.3s ease-in-out;
-}
-
- #contact .container .connect-media .box:hover{
-    box-shadow: whitesmoke 0px 0px 5px;
-    transform: scale(1.01);
-    border: none;
-} 
-
-#contact .container .connect-media .box .logo{
-    margin: 10px;
-    text-align: center;
-}
-.navbar{
-    background-color:lightseagreen;
-    height: 100px;
-    padding-top: 80px;
-}
-.contact{
-    height: 32px;
-    width: 32px;
+section {
+  width: 100%;
+  float: left;
+  height: 100vh;
   position: relative;
-  
+}
+
+#home {
+  background-color: #91568f;
+}
+
+#about {
+  background-color: #ffb071;
+}
+
+#resources {
+  background-color: #ff847c;
+}
+#coaches {
+  background-color: #5885bc;
+}
+
+#contact {
+  background-color: #25373f;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(241, 239, 239);
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(27, 26, 29);
+}
+h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: wheat;
+}
+h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(238, 66, 14);
+}
+
+#about h5 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(213, 12, 240);
+}
+#resources h5 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(227, 233, 227);
+}
+#contact h5 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(227, 233, 227);
+}
+/*contact form css*/
+.home_icon {
+  height: 8%;
+  width: 6%;
+  padding-left: 40px;
+}
+
+#contact .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+#contact .container .connect-form {
+  border-radius: 10%;
+  color: white;
+  transition: all 0.7s ease-in-out;
+  border: 1px solid white;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .container .connect-form:hover {
+  box-shadow: whitesmoke 0px 0px 5px;
+  transform: scale(1.01);
+  border: 1px solid white;
+}
+
+#contact .container .connect-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 450px;
+  width: 500px;
+}
+
+#contact .container .connect-form form #email {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  height: 35px;
+  border-radius: 20px;
+}
+
+#contact .container .connect-form form #message {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+#contact .container .connect-form form #btn {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  width: 85%;
+  font-weight: bold;
+  background-color: #fd6a7d;
+  transition: all 0.5s ease-out;
+}
+
+#contact .container .connect-form form #btn:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+
+#contact .container .connect-media .box {
+  background-color: rgba(245, 242, 242, 0.6);
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  height: 450px;
+  width: 500px;
+  border-radius: 10%;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .container .connect-media .box:hover {
+  box-shadow: whitesmoke 0px 0px 5px;
+  transform: scale(1.01);
+  border: none;
+}
+
+#contact .container .connect-media .box .logo {
+  margin: 10px;
+  text-align: center;
+}
+.navbar {
+  background-color: lightseagreen;
+  height: 100px;
+  padding-top: 80px;
+}
+.contact {
+  height: 32px;
+  width: 32px;
+  position: relative;
+
   left: 40px;
   padding-left: 60px;
 }
 .btn {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Georgia;
-    color: #fcfcfc;
-    font-size: 20px;
-    background: #3ed699;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .btn:hover {
-    background: #1b8f68;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-  }
-  
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #fcfcfc;
+  font-size: 20px;
+  background: #3ed699;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #1b8f68;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Resource card blogs */
+.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  margin: 10px;
+}
+.cardTitle {
+  height: 30%;
+  background: red;
+  color: white;
+  text-align: center;
+}
+.container {
+  padding: 2px 16px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
