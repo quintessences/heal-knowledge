@@ -46,7 +46,28 @@
           <form action="POST">
             <label for="email">Your Email</label>
             <input type="email" id="email" placeholder="Enter your Email here..">
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here....."></textarea>
+            <form>
+             <label for="age">Choose your Age</label>
+             <input type="radio" id="age"name="age" value="0-10 yrs"/>0-10 years
+             <input type="radio" id="age"name="age" value="10-20 yrs"/>10-20 years
+             <input type="radio" id="age"name="age" value="20-40 yrs"/>20-40 years
+             <input type="radio" id="age"name="age" value="40-60 yrs"/>40-60 years
+             <input type="radio" id="age"name="age" value="Above 60 yrs"/>Above 60 years
+             </form>
+
+            
+             <form>
+             <label for="Choose your disease">Choose your disease</label>
+            <input type="checkbox" id="Joints Pain" name="Joints Pain" value="Joints pain"/>
+              <label for="Joints pain">Joints Pain</label>
+              <input type="checkbox" id="Kidney problem" name="Kidney problem" value="kidney problem"/>
+              <label for="Kidney problem">Kidney problem</label>
+              <input type="checkbox" id="Asthma" name="Ashtma" value="Asthma"/>
+              <label for="Asthma">Asthma</label>
+              <input type="checkbox" id="Lungs" name="Lungs" value="Lungs"/>
+              <label for="Lungs">Lungs</label>
+             </form>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here....."></textarea>
             <button type="button" id="btn">Send</button>
           </form>
         </div>
