@@ -288,3 +288,25 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* Resource card blogs */
+.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  margin: 10px;
+}
+.cardTitle {
+  height: 30%;
+  background: red;
+  color: white;
+  text-align: center;
+}
+.container {
+  padding: 2px 16px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
