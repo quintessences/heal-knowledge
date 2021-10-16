@@ -95,7 +95,9 @@ section{
 }
 
 #resources{
-     background-color: #ff847c;
+     background-image: url('./images/resources.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
 }
 #coaches{
      background-color: #5885bc;
