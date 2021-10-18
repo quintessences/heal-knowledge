@@ -329,50 +329,6 @@ h4 {
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-
-
-}
-
-@media screen and (max-width:650px) {
-    #contact .container {
-        display: block;
-        height: fit-content;
-        background-color: #25373f;
-       
-    }
-
-    #contact .container .connect-form {
-        width: auto;
-        margin: 2em;
-    }
-
-    #contact .container .connect-form form {
-        height: auto;
-        width: 90%;
-    }
-
-    #contact .container .connect-media {
-        height: auto;
-        width: auto;
-        margin: 2em;
-    }
-
-    #contact .container .connect-form form #btn {
-        width: 70%;
-    }
-
-    #contact .container .connect-media .box {
-        width:auto;
-        height:fit-content;
-    }
-   
-}
 
 .card1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -421,4 +377,45 @@ h4 {
     max-width: 100%;
     height: auto;
     right: 0;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    #contact .container {
+        display: block;
+        height: fit-content;
+        background-color: #25373f;
+       
+    }
+
+    #contact .container .connect-form {
+        width: auto;
+        margin: 2em;
+    }
+
+    #contact .container .connect-form form {
+        height: auto;
+        width: 90%;
+    }
+
+    #contact .container .connect-media {
+        height: auto;
+        width: auto;
+        margin: 2em;
+    }
+
+    #contact .container .connect-form form #btn {
+        width: 70%;
+    }
+
+    #contact .container .connect-media .box {
+        width:auto;
+        height:fit-content;
+    }
+   
 }
