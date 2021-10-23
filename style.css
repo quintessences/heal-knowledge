@@ -35,7 +35,7 @@ header{
 }
 
 #menu li a{
-    color: rgb(255, 255, 255);
+    color: rgb(228, 24, 150);
     text-decoration: none;
     font-size: 20px;
 }
@@ -47,7 +47,7 @@ header{
 }
 
 #aboutus li a{
-    color: rgb(230, 240, 240);
+    color: rgb(1, 12, 12);
     text-decoration: none;
     font-size: 20px;
 }
@@ -62,6 +62,9 @@ section{
 
 #home{
    background-color: #99b898;
+   background-image: url("https://i.ibb.co/0nHM1rb/Whats-App-Image-2021-10-23-at-3-37-32-PM.jpg");
+   background-size: cover;
+   
 }
 
 #about{
@@ -84,11 +87,12 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(241, 239, 239);
+    color:rgb(6, 150, 247);
 }
 
+
 h2{
-    position: absolute;
+    position: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
