@@ -22,7 +22,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 30px 5px;
     align-items: center;
     position: fixed;
     z-index: 999;
@@ -38,6 +38,7 @@ header{
     color: rgb(12, 11, 11);
     text-decoration: none;
     font-size: 20px;
+
 }
 
 #aboutus li{
@@ -50,6 +51,8 @@ header{
     color: rgb(235, 227, 227);
     text-decoration: none;
     font-size: 20px;
+    position: absolute;
+    margin-top: 100px;
 }
 
 
@@ -87,4 +90,19 @@ h1{
     color: #fff;
 }
 
+#home header a img{
+    width: 50%;
+    height: 20%;
+    position: relative;
+    align-items: left;
+    display: flex;
+    margin-right: 10px;
+}
 
+#home header a img{
+    width: 50%;
+    height: 20%;
+    position: relative;
+    align-items: left;
+    display: flex;
+}
