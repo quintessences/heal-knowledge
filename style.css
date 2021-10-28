@@ -24,6 +24,7 @@ header {
 
 /*css reset*/
 
+
 header {
   width: 100%;
   display: flex;
@@ -88,7 +89,7 @@ section {
 
 #home {
   background-color: #91568f;
-}
+
 
 #about {
   background-color: #ffb071;
@@ -119,7 +120,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(27, 26, 29);
-}
+
 h3 {
   position: absolute;
   top: 50%;
@@ -127,6 +128,7 @@ h3 {
   transform: translate(-50%, -50%);
   color: wheat;
 }
+
 h4 {
   position: absolute;
   top: 50%;
@@ -168,7 +170,6 @@ h4 {
   justify-content: space-around;
   align-items: center;
   height: 100%;
-}
 
 #contact .container .connect-form {
   border-radius: 10%;
@@ -183,6 +184,7 @@ h4 {
   transform: scale(1.01);
   border: 1px solid white;
 }
+
 
 #contact .container .connect-form form {
   display: flex;
