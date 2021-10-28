@@ -36,7 +36,7 @@ header{
 }
 
 #menu li a{
-    color: rgb(255, 255, 255);
+    color: rgb(14, 92, 238);
     text-decoration: none;
     font-size: 20px;
  
@@ -52,7 +52,7 @@ header{
 }
 
 #menu li a:hover{
-    color: red;
+    color: rgb(73, 7, 253);
     background-color: yellow;
     text-decoration: none;
     border-style: solid;
@@ -73,7 +73,7 @@ header{
 }
 
 #aboutus li a{
-    color: rgb(230, 240, 240);
+    color: rgb(204, 241, 241);
     text-decoration: none;
     font-size: 20px;
  
@@ -116,7 +116,7 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(241, 239, 239);
+    color: rgb(204, 201, 201);
 }
 
 h2{
@@ -124,21 +124,21 @@ h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(27, 26, 29);
+    color: rgb(18, 17, 20);
 }
 h3{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: wheat;
+    color: rgb(248, 215, 152);
 }
 h4{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(238, 66, 14);
+    color: rgb(218, 58, 9);
 }
 
 #about h5{
@@ -146,21 +146,21 @@ h4{
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(213, 12, 240);
+    color: rgb(183, 9, 206);
 }
 #resources h5{
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(227, 233, 227);
+    color: rgb(181, 189, 181);
 }
 #contact h5{
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(227, 233, 227);
+    color: rgb(220, 243, 220);
 }
  /*contact form css*/
 .home_icon{
