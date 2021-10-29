@@ -28,7 +28,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 30px 5px;
     align-items: center;
     position: fixed;
     z-index: 999;
@@ -41,10 +41,12 @@ header {
 
 }
 
-#menu li a {
-    color: rgb(255, 255, 255);
+#menu li a{
+    color: rgb(14, 92, 238);
+
     text-decoration: none;
     font-size: 20px;
+ 
     /* border-radius: 15px 50px 30px 5px */
     transition: all 0.5s ease;
     border: 2px solid;
@@ -53,10 +55,12 @@ header {
     transition: color 0.1ms;
     padding: 0.5em 1em;
     font-size: 1em;
+ 
 }
 
-#menu li a:hover {
-    color: red;
+#menu li a:hover{
+    color: rgb(73, 7, 253);
+
     background-color: yellow;
     text-decoration: none;
     border-style: solid;
@@ -76,11 +80,15 @@ header {
     margin: 130px;
 }
 
-#aboutus li a {
-    color: rgb(230, 240, 240);
+
+#aboutus li a{
+    color: rgb(204, 241, 241);
     text-decoration: none;
     font-size: 20px;
-
+ 
+    position: absolute;
+    margin-top: 100px;
+ 
 
 }
 
@@ -120,7 +128,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(241, 239, 239);
+    color: rgb(204, 201, 201);
 }
 
 h2 {
@@ -128,7 +136,7 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(27, 26, 29);
+    color: rgb(18, 17, 20);
 }
 
 h3 {
@@ -136,7 +144,7 @@ h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: wheat;
+    color: rgb(248, 215, 152);
 }
 
 h4 {
@@ -144,7 +152,7 @@ h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(238, 66, 14);
+    color: rgb(218, 58, 9);
 }
 
 #about h5 {
@@ -152,7 +160,7 @@ h4 {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(213, 12, 240);
+    color: rgb(183, 9, 206);
 }
 
 #resources h5 {
@@ -160,7 +168,7 @@ h4 {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(227, 233, 227);
+    color: rgb(181, 189, 181);
 }
 
 #contact h5 {
@@ -168,7 +176,7 @@ h4 {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(227, 233, 227);
+    color: rgb(220, 243, 220);
 }
 
 /*contact form css*/
@@ -330,8 +338,27 @@ h4 {
 }
 
 
-.card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ 
+#home header a img{
+    width: 50%;
+    height: 20%;
+    position: relative;
+    align-items: left;
+    display: flex;
+    margin-right: 10px;
+}
+
+#home header a img{
+    width: 50%;
+    height: 20%;
+    position: relative;
+    align-items: left;
+    display: flex;
+}
+ 
+.card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
     transition: 0.3s;
     background-color: lawngreen;
 }
@@ -409,13 +436,5 @@ h4 {
         margin: 2em;
     }
 
-    #contact .container .connect-form form #btn {
-        width: 70%;
-    }
+ 
 
-    #contact .container .connect-media .box {
-        width:auto;
-        height:fit-content;
-    }
-   
-}
