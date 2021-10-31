@@ -104,8 +104,12 @@ section {
     background-color: #91568f;
 }
 
-#about {
-    background-color: #ffb071;
+
+#about{
+     background-color: #ffb071;
+     background-image: url("https://i.ibb.co/0nHM1rb/Whats-App-Image-2021-10-23-at-3-37-32-PM.jpg");
+   background-size: cover;
+
 }
 
 #resources {
