@@ -77,22 +77,22 @@ section{
 }
 
 #home{
-   background-color: #91568f;
+   background-color: #e76f51;
 }
 
 #about{
-     background-color: #fecea8;
+     background-color: #2a9d8f;
 }
 
 #resources{
-     background-color: #ff847c;
+     background-color: #e9c46a;
 }
 #coaches{
-     background-color: #f0a161;
+     background-color: #f4a261;
 }
 
 #contact{
-     background-color: #25373f;
+     background-color: #264653;
 }
 
 h1{
@@ -100,7 +100,7 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(241, 239, 239);
+    color: #283618;
 }
 
 h2{
@@ -130,7 +130,7 @@ h4{
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(213, 12, 240);
+    color: #ffadad;
 }
 #resources h5{
     position: absolute;
