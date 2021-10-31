@@ -9,8 +9,9 @@
 
 <body>
     <section id="home">
-        <header class="navbar">
-            <a href="#" style="padding-bottom: 60px;"><img src="https://cdn-icons-png.flaticon.com/128/5065/5065285.png" alt=""height="42"width="42"></a>
+        <header>
+            <a href="#"><img src="HK logo.png" alt="not found"></a>
+ 
             <ul id="menu">
                 <li><a href="#home"><img src="images/home.png" alt="Home" class="home_icon" ></a></li>
                 <li><a href="#about" class="btn">About Us</a></li>
@@ -30,15 +31,32 @@
                   real life contacts to get them resolved instantly.</span >
                 </p>
               </li>
-            </ul>
-          </section>
-         <h1>This Is Home</h1>
-    </section>
+              </ul>
+              <div class ="row">
+                <div class="column">
+                 <div class="card1">
+                   <img src="images/physical_health.png" alt="Avatar" style="width:100%">
+                    <div class="container2">
+                    <div><b>Physical Health</b></div>
+            </div>
+          </div>
+        </div>
+        <h1>This is Home.</h1>
+        <div class="column">
+          <div class="card2">
+            <img src="images/mental_health.png" alt="Avatar" style="width:100%">
+            <div class="container2">
+              <div><b>Mental Health</b></div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </section>
     <section id="about"><h1>This Is About</h1>
     <h5> contains the basic info of what we do as well the updates related to our firm </h5></section>
     <section id="resources"><h2>These are resources
     </h2>
-    <h5>contains all the needs and information available through Us</h5></section>
+    <p style="color: black; margin-top: 450px; margin-left: 550px;">contains all the needs and information available through Us</p></section>
     <section id="coaches"><h3>list of coaches</h3></section>
     <section id="contact">
       <div class="container">
@@ -46,8 +64,23 @@
           <form action="POST">
             <label for="email">Your Email</label>
             <input type="email" id="email" placeholder="Enter your Email here..">
+            <form>
+              <label for"age">Select Your Age <hr><br></label>
+              <input type="radio" id="age" name="age" value="0-10 years"/>0-10 years<br>
+              <input type="radio" id="age" name="age" value="11-20 years"/>11-20 years<br>
+              <input type="radio" id="age" name="Age" value="21-60 years"/>21-60 years<br>
+              <input type="radio" id="age" name="age" value="Above 60 years"/>Above 60 years <hr><br>  
+    
+
+              <label for"Problem">Tell Your Problem <br><hr></label> <hr><br>
+              <input type="checkbox" id="problem" name="problem" value"Problem"/>Physical Problem<hr><br>
+              <input type="checkbox" id="problem" name="problem" value"Problem"/>Mental Problem<hr><br>
+
+              
+             
+            </form>
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here....."></textarea>
-            <button type="button" id="btn">Send</button>
+            <button type="button" id="btn">SEND</button>
           </form>
         </div>
         <div class="connect-media">
@@ -68,7 +101,12 @@
         </div>
       </div>  
     </section>
-
+ 
+    <section id="about"><h1>This Is About</h1></section>
+    <section id="resources"><h1>These are resources</h1></section>
+    <section id="coaches"><h1>list of coaches</h1></section>
+    <section id="contact"><h1>This Is Contact</h1></section>
+ 
 </body>
 
 </html>
